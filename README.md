@@ -59,12 +59,14 @@ _Below is an example of how you can instruct your audience on installing and set
    ```sh
    composer install
    ```
-3. Do migrate and seed commands 
+3. Setup your database in .env file
+
+4. Do migrate and seed commands 
    ```php
    php artisan migrate
    php artisan db:seed
 
-4. Imposer Postman Collection in your local Postman software.
+5. Imposer Postman Collection in your local Postman software.
 
 _Done._
    ``
